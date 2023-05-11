@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none !important;
+    list-style-type: none;
+    font-family:'Times New Roman', Times, serif;
+}
+/* header */
+header{
+    margin:80px
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  
+}
+nav ul li{
+    margin:5px;
+    
+}
+nav ul li a{
+    color:rgb(101, 101, 101)
+
+}
+nav h1{
+color:brown
+}
+/* card */
+.card{
+    padding:20px;
+    border:1px solid gray
+}
+.delete-btn,.edit-btn,.add-blog{
+    width:max-content;
+    padding: 5px;
+    border-radius: 8px;
+    color: white !important;
+}
+#blog-title{
+    color:blue
+}
+#blog-desc{
+    color: brown;
+}
+#author{
+    color:gray
+}
+/* newblog */
+form {
+  margin: 0 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+#add-blog {
+  width: 90px;
+}
+
+.cards{
+ margin:0 230px
+}
